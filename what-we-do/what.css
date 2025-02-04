@@ -1,0 +1,508 @@
+body {
+  margin: 0;
+  font-family: math;
+}
+
+.Field-Srija-container {
+  width: 100%;
+  background-size: cover;
+  background: url(images/green-sprout-in-the-dirt-with-space-for-copy.jpg);
+  background-size: cover;
+  height: 40vh;
+  background-size: cover;
+  margin-top: -21px;
+  /* background-repeat: no-repeat;
+        background-size: cover;*/
+}
+
+.wrapper {
+  grid-column-gap: 37px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  padding: 30px;
+}
+
+.Field-vardhan {
+  width: 50%;
+}
+
+.Field-Srija {
+  width: 50%;
+}
+
+.Field-vardhan video {
+  border-radius: 12px;
+}
+
+.Field-vardhan h2 {
+  left: 55rem;
+  top: 18rem;
+  position: absolute;
+}
+
+.Field-Srija p {
+  line-height: 26px;
+  top: 5rem;
+  text-align: justify;
+}
+
+
+.Sriga-Agro {
+  width: 25%;
+  left: 35rem;
+  position: relative;
+  top: 75px;
+
+}
+
+.Sriga-Agro p {
+  padding: 0;
+}
+
+.Agriculture-work {
+  display: flex;
+  max-width: 95%;
+  margin-left: auto;
+  border-radius: 97px 35px 154px 77px;
+  margin-right: auto;
+  background: #ffdead7a;
+  align-items: center;
+  padding: 30px 5px;
+}
+
+.information {
+  max-width: 85%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.FQA {
+  text-align: center;
+  color: #000000;
+  padding: 10px 0px;
+}
+
+.organic img {
+  border-radius: 12px;
+  width: 80%;
+}
+
+.future p {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin: 0;
+  text-align: justify;
+  padding: 5px;
+  gap: 30px;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+summary {
+  font-size: 15px;
+  text-align: center;
+  color: #035801;
+}
+
+.details {
+  display: flex;
+  gap: 70px;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  color: #000000;
+  line-height: 0;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #000000;
+  line-height: 0;
+}
+
+.future {
+  width: 40%;
+  font-size: 2px;
+}
+
+.farmer-Srija {
+  width: 62%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.farmer-Srija h1 {
+  text-align: center;
+}
+
+.farmer-Srija img {
+  width: 95%;
+  border-radius: 15px;
+  /* padding-left: 144px; */
+  margin-left: 15px;
+}
+
+.our-working-step {
+  width: 70%;
+  padding: 20px;
+}
+
+.working-step-1 h1 {
+  color: green;
+  font-size: 40px;
+}
+
+.working-step-2 h1 {
+  color: green;
+  font-size: 40px;
+}
+
+.working-step-3 h1 {
+  color: green;
+  font-size: 40px;
+}
+
+.working-step-4 h1 {
+  color: green;
+  font-size: 40px;
+}
+
+.working-step-1 h2 {
+  font-size: large;
+}
+
+.working-step-2 h2 {
+  font-size: large;
+
+}
+
+.working-step-3 h2 {
+  font-size: large;
+}
+
+.working-step-4 h2 {
+  font-size: large;
+}
+
+.working-step-1,
+.working-step-2,
+.working-step-3,
+.working-step-4 {
+  display: flex;
+  height: 55px;
+  column-gap: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.working-step-1,
+.working-step-2,
+.working-step-3,
+.working-step-4,
+p {
+  padding: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .Agriculture-work {
+    display: flex;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .information {
+    background: #035801;
+    width: 94%;
+    color: #fff;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px
+  }
+
+  .organic img {
+    width: 90%;
+  }
+
+  summary {
+
+
+    color: rgb(255, 255, 255);
+  }
+
+  .FQA {
+    text-align: center;
+    color: #fff;
+  }
+
+  .details {
+    display: flex;
+    gap: 15px;
+    width: 95%;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+  }
+
+  .hero-text h2 {
+    font-size: 24px;
+    color: #000000;
+    line-height: 0;
+  }
+
+  .hero-text p {
+    margin: 20px 0;
+    font-size: 15px;
+    color: #000000;
+    line-height: 0;
+  }
+
+  .future p {
+    font-size: 15px;
+    width: 80%;
+    gap: 1px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .future {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  /*
+    .Agriculture-work::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        top: 135.3%;
+        height: 110%;
+        background: linear-gradient(45deg, rgba(37, 127, 168, 0.568), transparent);
+        border-radius: px;
+      }*/
+  .working-step-1,
+  .working-step-2,
+  .working-step-3,
+  .working-step-4,
+  p {
+    padding: 12px;
+    margin: 0;
+  }
+
+
+  .working-step-1,
+  .working-step-2,
+  .working-step-3,
+  .working-step-4 {
+    display: flex;
+    height: 55px;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .farmer-Srija {
+    width: 85%;
+    padding: 10px;
+  }
+
+  .our-working-step {
+    width: 100%;
+    padding: 0;
+  }
+
+  .farmer-Srija h1 {
+    text-align: center;
+    font-size: 22px;
+    color: green;
+    font-family: math;
+    font-weight: bolder;
+    padding-bottom: 5px;
+  }
+
+  .farmer-Srija img {
+    width: 100%;
+    border-radius: 15px;
+    /* padding-left: 144px; */
+    margin-left: 0;
+  }
+
+  .working-step-1 h1 {
+    color: green;
+    font-size: 25px;
+  }
+
+  .working-step-2 h1 {
+    color: green;
+    font-size: 25px;
+  }
+
+  .working-step-3 h1 {
+    color: green;
+    font-size: 25px;
+  }
+
+  .working-step-4 h1 {
+    color: green;
+    font-size: 25px;
+  }
+
+  .working-step-1 h2 {
+    font-size: 12px;
+  }
+
+  .working-step-2 h2 {
+    font-size: 12px;
+  }
+
+  .working-step-3 h2 {
+    font-size: 12px;
+  }
+
+  .working-step-4 h2 {
+    font-size: 12px;
+  }
+
+
+
+
+  .fresh {
+    text-align: justify;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .Field-Srija-container {
+    width: 100%;
+    background-size: auto;
+    height: 25vh;
+    margin-top: -21px;
+
+  }
+
+  .Sriga-Agro {
+    width: 85%;
+    left: 3rem;
+    position: relative;
+    top: 5rem;
+    line-height: 0.2;
+
+  }
+
+  .wrapper {
+    grid-column-gap: 37px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .Field-vardhan {
+    width: 100%;
+  }
+
+  .Field-vardhan h2 {
+    position: static;
+    text-align: center;
+    color: forestgreen;
+    font-size: 30px;
+  }
+
+  .Sriga-Agro p {
+    padding: 0;
+  }
+
+  .Field-Srija {
+    width: 100%;
+  }
+
+  .Field-Srija p {
+    text-align: justify
+  }
+
+  ;
+
+  .Field-Srija p {
+    line-height: 0px;
+  }
+}
+
+
+
+
+
+
+.containersr {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: #24262b;
+  padding: 20px 0;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.hero {
+  background: url(images/92ce2917cfc77b33243b3e4489a96e8c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #007BFF;
+  background: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #f0f0f0;
+}

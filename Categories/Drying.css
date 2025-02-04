@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+}
+
+
+/*banner with company research & deve*/
+.About-Drying {
+  width: 87%;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 55px;
+  text-align: justify;
+}
+
+.About-Drying img {
+  width: 30%;
+  
+  box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+  border-radius: 10px;
+
+}
+
+.Srija-DY {
+  width: 100%;
+  background-image: url(Drying-Image/banner-production.jpg);
+  background-size: cover;
+  height: 300px;
+ 
+}
+.Drying-Unit-1 img,.Drying-Unit-2 img{
+  width: 100%;
+}
+.Drying-Unit-1{
+  box-shadow: 0 4px 8px 0;
+  width: 245px;
+  height: 15rem;
+  background: url(Drying-Image/DSC02172.JPG);
+  background-size: cover;
+  text-align: center;
+  border-radius: 12px;
+  font-family: arial;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Drying-Unit-12{
+  box-shadow: 0 4px 8px 0;
+  width: 245px;
+  height: 15rem;
+  background: url(Drying-Image/Fact.jpg);
+  background-size: cover;
+  text-align: center;
+  border-radius: 12px;
+  font-family: arial;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Drying-Unit-13{
+  box-shadow: 0 4px 8px 0;
+  width: 245px;
+  height: 15rem;
+  background: url(Drying-Image/kp_vr.jpg);
+  background-size: cover;
+  text-align: center;
+  border-radius: 12px;
+  font-family: arial;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Drying-Unit-14{
+  box-shadow: 0 4px 8px 0;
+  width: 245px;
+  height: 15rem;
+  background: url(Drying-Image/image.jpg);
+  background-size: cover;
+  text-align: center;
+  border-radius: 12px;
+  font-family: arial;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.LYD h3{
+text-align: center;
+padding: 20px 0px;
+}
+.main-unit{
+  display: flex;
+  gap: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+.About-Drying p {
+  line-height: 2;
+  width: 60%;
+  font-size: 20px;
+}
+
+.System {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.DY-UNIT {
+  font-family: math;
+}
+
+.Sriga-Agro-Unit {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  top: 5rem;
+  list-style: none;
+
+}
+
+.Srija-DY-Tech {
+  color: purple;
+}
+
+@media screen and (max-width: 767px) {
+  .About-Drying {
+      width: 98%;
+      display: flex;
+      margin-right: auto;
+      margin-left: auto;
+      gap: 0px;
+      padding: 3px;
+      text-align: justify;
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+  }
+  .main-unit {
+      display: flex;
+      gap: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+      flex-direction: column;
+  }
+  .LYD{
+      text-align: center;
+  }
+  .Sriga-Agro-Unit {
+      width: 90%;
+      left: 0rem;
+      position: relative;
+      top: 5rem;
+      font-size: small;
+  }
+
+  .Sriga-Agro-Unit h1 {
+      text-align: center;
+  }
+
+  .Sriga-Agro-Unit p {
+      text-align: center;
+  }
+
+  .Srija-DY {
+      width: 100%;
+      background-size: auto;
+      height: 25vh;
+  }
+
+  .About-Drying p {
+      line-height: 2;
+      width: 97%;
+      margin: 0;
+      font-size: 15px;
+  }
+
+  .About-Drying img {
+      width: 75%;
+      margin: auto auto 25px auto;
+      box-shadow: none;
+      border-radius: 5px;
+  }
+}
+
+/*Footer Section start Here 
+INCLUDED IN HEAD STYLES.CSS */

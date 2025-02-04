@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+}
+
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.image {
+  flex: 1;
+  text-align: right;
+}
+
+.image video {
+
+
+  border-radius: 8px;
+}
+
+/*banner with company research & deve*/
+
+
+/* Header Section */
+.header {
+  background: url(production-house/cartoon-working-lighthouse-with-beam-light-night_88138-1228.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 2em 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Production Section */
+.production-section {
+  padding: 2em;
+  text-align: center;
+}
+
+.production-section-Ag {
+  display: flex;
+  gap: 15px;
+}
+
+.production-section .location {
+  background: #fff;
+  margin: 1em auto;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+.production-section-Ag img {
+  width: 90%;
+  height: auto;
+  transition: transform .2s;
+  border-radius: 8px;
+}
+
+.production-section-Ag img:hover {
+  transform: scale(1.5);
+}
+
+/* Gallery Section */
+.gallery-section {
+  padding: 2em;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.gallery-section h2 {
+  margin-bottom: 1em;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1em;
+  justify-items: center;
+}
+
+.gallery-grid img {
+  width: 70%;
+  height: auto;
+  transition: transform .2s;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.5);
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .content-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .text {
+    flex: 1;
+    padding-right: 3px;
+  }
+
+  .text h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .text p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+
+  }
+
+  .image {
+    flex: 1;
+    text-align: center;
+  }
+
+  .image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .production-section-Ag {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .header h1 {
+    margin: 0;
+    font-size: 25px;
+  }
+}
+
+/*Footer Section start Here 
+INCLUDED IN HEAD STYLES.CSS */
