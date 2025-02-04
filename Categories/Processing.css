@@ -3,11 +3,19 @@ body {
 }
 
 
-.container {
+.pcontainer {
   max-width: 100%;
- margin-left: auto;
- margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
+}
+
+.overview {
+  margin: 15px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0px 7px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
 h1,
@@ -16,7 +24,7 @@ h3 {
   color: #ffffff;
 }
 
-.container h2 {
+.pcontainer h2 {
   font-size: 30px;
   text-align: center;
 }
@@ -69,14 +77,16 @@ p {
 }
 
 /* Overview Section */
-.testimonial::before{
+.testimonial::before {
   content: '';
-        background: red;
-        position: absolute;
-        width: 50px;
-        height: 35px;
-        left: 22px;
-        border-radius: 0px 0px 30px;
+  display: block;
+  background: red;
+  width: 50px;
+  position: relative;
+  height: 35px;
+  left: -20px;
+  top: -21px;
+  border-radius: 0px 0px 30px;
 }
 
 .overview-content {
@@ -117,7 +127,8 @@ p {
   background: #f4f4f4;
   padding: 50px 20px;
 }
-.feature img{
+
+.feature img {
   width: 80%;
   border-radius: 12px;
 }
@@ -213,15 +224,7 @@ p {
     color: black;
   }
 
-  .testimonial::before {
-    content: '';
-    background: red;
-    position: absolute;
-    width: 50px;
-    height: 35px;
-    left: 22px;
-    border-radius: 0px 0px 30px;
-  }
+  
 
 
 }

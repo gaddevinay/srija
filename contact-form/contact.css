@@ -11,10 +11,10 @@
 /*main part*/
 .contact-bg {
   height: 60vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(contact-us.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(contact-us.jpg);
   background-position: 50% 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   text-align: center;
   color: #fff;
   display: flex;
@@ -48,13 +48,16 @@
 .map-head h3 {
   color: #e91e63;
   text-align: center;
-
+  padding: 5px 0px;
 }
 
 .map iframe {
   border-radius: 15px;
   height: 60vh;
   max-width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .map h1 {
@@ -111,8 +114,10 @@
   margin: 2rem 0;
   text-align: center;
   padding: 2rem 0;
-  position: relative;
-  left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-info span {
@@ -261,7 +266,7 @@
 
 /*responsive*/
 @media(max-width: 767px) {
-  
+
   .map {
     width: 100%;
     display: flex;
@@ -274,4 +279,3 @@
     flex-direction: column;
   }
 }
-  

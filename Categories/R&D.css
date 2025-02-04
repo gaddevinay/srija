@@ -9,12 +9,13 @@ body {
   width: 100%;
   background-image: url(research-images/soil-testing-banner.jpg);
   background-size: cover;
-  height: 40vh; 
+  height: 40vh;
 }
 
 .Sriga-Agro h1 {
   color: rgb(255, 255, 255);
   font-size: 35px;
+  margin: 5px 0;
 }
 
 
@@ -25,7 +26,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
-  padding: 30px;
+  padding:5px 30px 30px 30px;
 }
 
 .Field-vardhan {
@@ -40,10 +41,10 @@ body {
   border-radius: 12px;
 }
 
-.Field-vardhan h2 {
-  left: 5rem;
-  top: 18rem;
-  position: absolute;
+.Research-Development-Tech h2 {
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .Field-Srija p {
@@ -52,15 +53,15 @@ body {
 }
 
 .Sriga-Agro {
-  width: 35%;
+  width: 100%;
+  height: -webkit-fill-available;
   margin-left: auto;
   margin-right: auto;
-  position: absolute;
-  top: 10rem;
   text-align: center;
-  line-height: 0.4;
-  left: 30rem;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .factors {
@@ -68,9 +69,9 @@ body {
 }
 
 .Sriga-Agro p {
-  padding-left: 45px;
   font-size: 25px;
   color: white;
+  margin: 5px 0;
 }
 
 .Research-Development-Tech {
@@ -82,28 +83,27 @@ body {
     width: 100%;
     background-size: auto;
     height: 25vh;
-    margin-top: -21px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .Sriga-Agro p {
     padding-left: 14px;
     font-size: 17px;
   }
+
   .Sriga-Agro h1 {
     color: #8BC34A;
     font-size: 20px;
     padding-top: 15px;
-}
+  }
+
   .Sriga-Agro {
     width: 81%;
     background: #f0f8ff24;
-    left: 0rem;
-    position: relative;
-    height: 5pc;
-    top: 3rem;
-    /* line-height: 0.2; */
-}
+    height: min-content
+  }
 
   .wrapper {
     grid-column-gap: 37px;
@@ -111,7 +111,6 @@ body {
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    padding: 30px;
     flex-direction: column;
   }
 
