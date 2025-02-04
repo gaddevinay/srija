@@ -6,7 +6,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
   margin: 15px;
   padding: 20px;
   background: #fff;
