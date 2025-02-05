@@ -67,7 +67,7 @@ filter: invert();
 }
 .whatsapp-button {
     position: fixed;
-    bottom: 135px;
+    bottom: 130px;
     right: 15px;
     z-index: 99;
     border-radius: 50px;
