@@ -227,16 +227,13 @@ p {
   }
 
   .information {
-    background: #035801;
-    width: 94%;
-    color: #fff;
-    max-width: 100%;
-    height: auto;
-    padding-bottom: 1px;
-    border-radius: 20px;
-    margin-bottom: 15px;
-    margin-top: 15px
-  }
+   background: crimson;
+        color: #fff;
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 1px;
+        
+    }
 
   .organic img {
     width: 90%;
