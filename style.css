@@ -422,6 +422,7 @@ filter: invert();
   margin-right: auto;
   border-style: dotted;
   border-radius: 12px;
+  padding: 10px;
 }
 
 .num {
@@ -541,7 +542,7 @@ p {
   .education {
     height: auto;
     padding-top: 20px;
-    background-color: #FF5722;
+    background-color: #008000;
     color: white;
     margin-top: 15px;
     width: 100%;
