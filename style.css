@@ -23,7 +23,7 @@ a {
 
 .news-ticker {
   display: inline-block;
-  animation: marquee 50s linear infinite;
+  animation: marquee 20s linear infinite;
 }
 
 @keyframes marquee {
