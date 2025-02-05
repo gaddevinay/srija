@@ -65,9 +65,8 @@ body {
   display: flex;
   max-width: 95%;
   margin-left: auto;
-  border-radius: 97px 35px 154px 77px;
   margin-right: auto;
-  background: #ffdead7a;
+  background: #ecd7ee;
   align-items: center;
   padding: 30px 5px;
 }
