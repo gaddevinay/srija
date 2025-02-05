@@ -153,9 +153,9 @@ h1 {
 
 /*section on the company*/
 .our_view img {
-  width: 71%;
+  width: 100%;
   position: relative;
-  left: 72px;
+  left: 0px;
   border-radius: 15px;
 }
 
@@ -163,13 +163,16 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: rgb(25 106 49);
+  color: rgb(181 131 64);
   margin-left: auto;
   width: 80%;
   margin-right: auto;
   padding: 12px 12px 12px 12px;
 }
+.Company_over-main{
+  background: #f2f6f2;
 
+}
 .mission-vision {
   display: flex;
   justify-content: center;
