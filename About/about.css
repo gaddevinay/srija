@@ -12,40 +12,13 @@ body {
   color: #ffffff;
 }
 
-/*
-
-@keyframes slide-in{
-  from{
-    translate: 150vw 0;
-    scale: 200% 1;
-  }
-  to{
-    translate: 0 0;
-    scale: 100% 1;
-  }
+.Quality-srija img{
+  width: 100%;
 }
-/*Trail
-.Company_over-view{
-  animation: fadeIn 2s infinite;
+.Quality-srija h1{
+  text-align: center;
+  color: #1cb0ca;
 }
-@keyframes fadeIn {
-  0%{opacity: 0;}
-  50%{opacity: 1;}
-  100%{opacity: 0;}
-}
-.our_view{
-  animation: rotate 2.5s infinite;
-}
-@keyframes rotate {
-  0%{
-    transform: rotate(0deg);
-  }
-  100%{
-    transform: rotate(360deg);
-  }
-  
-}
-*/
 .history_achive {
   font-family: sans-serif;
   background: #09ff00;
