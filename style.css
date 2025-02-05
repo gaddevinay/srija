@@ -401,17 +401,11 @@ filter: invert();
 }
 
 .education {
-  height: 300px;
-  padding-top: 10px;
-  background-color: darkcyan;
-  color: #ffffff;
-  margin-top: 15px;
-  box-shadow: 0px 2px 5px 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 95%;
-  border-radius: 15px 15px 73px 103px;
-
+height: 300px;
+ padding-top: 10px;
+ background-color: #dddcdc47;
+ color: #6b0042;
+ margin-top: 15px;
 }
 
 .education h1 {
@@ -542,8 +536,6 @@ p {
   .education {
     height: auto;
     padding-top: 20px;
-    background-color: #008000;
-    color: white;
     margin-top: 15px;
     width: 100%;
     border-radius: 0;
