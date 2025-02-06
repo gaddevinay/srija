@@ -73,7 +73,12 @@ backdrop-filter: blur(1px);
 
 .contentmsg {
   width: 90%;
+  padding:11px;
+  text-align:justify;
   
+}
+.meassage-vr-sj{
+  font-size:25px;
 }
 
 .heromsg {
@@ -329,6 +334,14 @@ h1 {
     width: 60vh;
     max-width: 19.15em;
   }
+  .contentmsg h2 {
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 16px;
+    color: crimson;
+    text-decoration: underline;
+}
 
   .About-Company_Vr {
     width: 90%;
@@ -425,7 +438,7 @@ backdrop-filter: blur(1px);
   }
 
   .mesagermsg {
-    width: 80%;
+    width: 89%;
     flex-direction: column-reverse;
   }
 
