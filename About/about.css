@@ -391,6 +391,14 @@ h1 {
     margin-left: auto;
     margin-right: auto;
   }
+  .mesagermsg {
+    width: 88%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 15px 15px 18px 3px;
+    flex-direction: column-reverse;
+}
 
   .title p {
     color: #ffffff;
