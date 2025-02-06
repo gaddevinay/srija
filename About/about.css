@@ -27,7 +27,7 @@ body {
   background-size: cover;
   backdrop-filter: blur(1px);
 }
-.mesager {
+.mesagermsg {
     width: 50%;
     display: flex;
     align-items: center;
@@ -35,21 +35,22 @@ body {
     border-radius: 5px;
     box-shadow: 15px 15px 24px 3px;
 }
-.content h2{
+.contentmsg h2{
     text-align: center
 }
-.hero img {
+.heromsg img {
     width: 100%;
     border-radius: 10px;
 }
 
-.content {
+.contentmsg {
     width: 90%;
 }
 
-.hero {
+.heromsg {
     width: fit-content;
 }
+
 .history_achive::before {
   content: "";
   background: rgba(0, 0, 0, .7);
