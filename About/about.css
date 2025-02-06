@@ -12,13 +12,15 @@ body {
   color: #ffffff;
 }
 
-.Quality-srija img{
+.Quality-srija img {
   width: 100%;
 }
-.Quality-srija h1{
+
+.Quality-srija h1 {
   text-align: center;
   color: #1cb0ca;
 }
+
 .history_achive {
   font-family: sans-serif;
   background: #09ff00;
@@ -27,31 +29,54 @@ body {
   background-size: cover;
   backdrop-filter: blur(1px);
 }
+
 .mesagermsg {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 15px 15px 24px 3px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 9px 4px;
+  flex-direction: row;
+  margin: 20px auto;
 }
-span { content: "\201C"; }
-span { content: "\201D"; 
-    
-.contentmsg h2{
-    text-align: center
+
+/*.contentmsg span { content: "\201C"; }
+.contentmsg span { content: "\201D"; }*/
+.contentmsg i {
+  font-size: 10px;
+  position: relative;
+  color: #2b2b2b;
+  bottom: 6px;
 }
+
+.contentmsg h2 {
+  text-align: right;
+  margin-bottom: 0;
+  margin-top: 5px;
+  font-size: 24px;
+}
+.contentmsg h2 span{
+  font-weight: 100;
+    font-size: 20px;
+}
+
+
 .heromsg img {
-    width: 100%;
-    border-radius: 10px;
+  width: 90%;
+  border-radius: 10px;
 }
 
 .contentmsg {
-    width: 90%;
+  width: 90%;
+  
 }
 
 .heromsg {
-    width: fit-content;
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  margin-bottom: 5px;
 }
 
 .history_achive::before {
@@ -195,10 +220,12 @@ h1 {
   margin-right: auto;
   padding: 12px 12px 12px 12px;
 }
-.Company_over-main{
+
+.Company_over-main {
   background: #f2f6f2;
 
 }
+
 .mission-vision {
   display: flex;
   justify-content: center;
@@ -370,7 +397,7 @@ h1 {
 
 
 @media (max-width: 768px) {
- 
+
   .srija img {
     width: 100px;
     padding-left: 10px;
@@ -381,7 +408,7 @@ h1 {
 
 
 @media (max-width: 768px) {
- 
+
   .title {
     text-align: center;
     border: 2px solid #888;
@@ -392,14 +419,11 @@ h1 {
     margin-left: auto;
     margin-right: auto;
   }
+
   .mesagermsg {
-    width: 88%;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    box-shadow: 15px 15px 18px 3px;
+    width: 80%;
     flex-direction: column-reverse;
-}
+  }
 
   .title p {
     color: #ffffff;
@@ -480,4 +504,3 @@ h1 {
 ul {
   list-style: none;
 }
-
