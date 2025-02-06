@@ -423,8 +423,7 @@ p {
     width: 100%;
   }
 
-  .Field-vardhan h2 {
-    position: static;
+  .field-i-f h2 {
     text-align: center;
     color: forestgreen;
     font-size: 30px;
