@@ -6,10 +6,29 @@
 
 }
 
+.srija {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
 .srija img {
     width: 100px;
     aspect-ratio: 3 / 2;
     object-fit: contain;
+    padding: 5px 0px;
+}
+
+.srija span {
+    color: #000000;
+    font-family: Bitter;
+    display: inline-block;
+    line-height: 1;
+    max-width: 380px;
+    outline: none;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    font-size: 24px;
 }
 
 .navbar,
@@ -60,11 +79,15 @@
         align-items: center;
         justify-content: space-between;
         flex-direction: row-reverse;
-        padding: 0px 10px;
+        padding: 0px 10px 0px 0px;
     }
 
     .srija img {
-        width: 70px;
+        width: 80px;
+    }
+
+    .srija span {
+        font-size: 20px;
     }
 
 }
@@ -95,10 +118,7 @@
     margin-bottom: 0.2rem;
 }
 
-.navbar .navbar-header>a {
-    font-weight: 500;
-    color: #3c4250;
-}
+
 
 .navbar .navbar-menu {
     display: flex;
@@ -211,7 +231,8 @@ header section span:not(:last-child) {
         box-shadow: none;
         background-color: #fafafa;
     }
-    .dropdown{
+
+    .dropdown {
         padding: 8px;
     }
 }
@@ -238,20 +259,21 @@ header section span:not(:last-child) {
     position: relative;
 }
 
-.navbar .navbar-header>a span {
-    color: #66f;
-}
+
 
 .navbar .navbar-header h4 {
     font-weight: 500;
     font-size: 1.25rem;
 }
+
 .navbar .navbar-menu .navbar-nav>li.active a {
     color: #66f;
 }
+
 .navbar .navbar-menu .navbar-nav .navbar-dropdown .dropdown li.active a {
     color: #66f;
 }
+
 @media (max-width: 768px) {
     .navbar .navbar-header h4 {
         font-size: 1.05rem;

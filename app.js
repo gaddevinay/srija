@@ -157,4 +157,3 @@ function showTestimonials() {
 // Auto-slide every 3 seconds
 setInterval(showTestimonials, 3000);
 
-ZZ

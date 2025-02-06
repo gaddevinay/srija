@@ -1,0 +1,88 @@
+.Field-Srija-container {
+    width: 100%;
+    background-image: url(../Categories/Drying-Image/banner-production.jpg);
+    background-size: cover;
+    height: 40vh;
+  }
+  
+  .Sriga-Agro h1 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin: 5px 0;
+  }
+  .Sriga-Agro {
+    width: 100%;
+    height: -webkit-fill-available;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .Field-Srija-vision-container {
+      width: 100%;
+      background-size: auto;
+      height: 25vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .Sriga-Agro h1 {
+      color: #ffffff;
+      font-size: 20px;
+      padding-top: 15px;
+    }
+  
+    .Sriga-Agro {
+      width: 81%;
+      background: #f0f8ff24;
+      height: min-content
+    }
+    .containermv {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      gap: 20px;
+      border-radius: 15px;
+      padding: 15px;
+      background: #ffffff;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+  /*banner with company mission-vision*/
+  .mission-vision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a0b23d;
+    padding: 50px 20px;
+  }
+  .containermv {
+    display: flex
+  ;
+    flex-wrap: wrap;
+    max-width: 1232px;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    background: white;
+    align-items: center;
+  }
+  .content {
+    flex: 1;
+    max-width: 600px;
+  }
+  .image {
+    flex: 1;
+    max-width: 500px;
+  }
+  .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
