@@ -35,6 +35,8 @@ body {
     border-radius: 5px;
     box-shadow: 15px 15px 24px 3px;
 }
+span { content: "\201C"; }
+span { content: "\201D"; }
 .contentmsg h2{
     text-align: center
 }
