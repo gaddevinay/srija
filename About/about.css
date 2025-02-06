@@ -27,8 +27,8 @@ body {
  animation: gradientBG 8s ease infinite;
   color: #fff;
   padding-top: 50px;
-  background-size: cover;
-  backdrop-filter: blur(1px);
+ background-size: 400% 400%;
+
 }
 @keyframes gradientBG {
   0% {
@@ -372,11 +372,23 @@ h1 {
 
   .history_achive {
     font-family: sans-serif;
-    background: #00ff0d;
+     background: linear-gradient(145deg, #ffafbd, #ffc3a0, #8ec5fc, #e0c3fc);
+ animation: gradientBG 8s ease infinite;
     padding: 20px 0px;
-    background-size: cover;
-    backdrop-filter: blur(1px);
+     background-size: 400% 400%;
+   
   }
+  @keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 
   .timeline .checkpoint div::before {
