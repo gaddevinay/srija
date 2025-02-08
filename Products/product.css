@@ -7,14 +7,14 @@
 
 /*new section*/
 .container-Product {
-    max-width: 80rem;
-    margin: 0 auto;
+   margin: 0 auto;
     display: flex;
     padding: 15px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .product{
     background: #fff;
@@ -22,6 +22,7 @@
     border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
+    width: 73%;
     display: flex;
     padding: 15px;
 }
