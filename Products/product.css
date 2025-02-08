@@ -53,7 +53,7 @@
     color: #000;
 }
 .paddy-banner{
-    background-image: url(paddy-image/Maize.png);
+    background-image: url(paddy-image/paddy-vr-sj.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -178,7 +178,7 @@
         text-align: center;
     }
     .paddy-banner{
-   background-image: url(../paddy-image/Maize.png);
+   background-image: url(../paddy-image/paddy-vr-sj.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
