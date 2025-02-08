@@ -213,8 +213,7 @@ header section span:not(:last-child) {
     position: absolute;
     top: 135%;
     background-color: #fff;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 0;
     min-width: 160px;
     width: auto;
     white-space: nowrap;
@@ -240,6 +239,7 @@ header section span:not(:last-child) {
     color: #3c4250;
     padding: 0.25rem 1rem;
     display: block;
+    text-decoration: none;
 }
 
 .navbar .navbar-menu .navbar-nav .navbar-dropdown .dropdown.show {
