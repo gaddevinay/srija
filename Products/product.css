@@ -52,6 +52,54 @@
     font-weight: bold;
     color: #000;
 }
+.paddy-banner{
+    background-image: url(paddy-image/Maize.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.paddy-banner h1{
+    font-size: 2em;
+    margin: 0;
+}
+.others-banner h1{
+    font-size:2em;
+    margin:0;
+}
+.vegetables-banner{
+     background-image: url(Vegetables-image/other-vr-sj.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.vegetables-banner{
+    font-size:2em;
+    margin:0;
+}
+ .others-banner{
+    background-image: url(S-B-J/sbj.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
 .banner{
     background-image: url(Maize-image/Maize.png);
     background-size: cover;
@@ -129,6 +177,43 @@
         margin: 0;
         text-align: center;
     }
+    .paddy-banner{
+   background-image: url(../paddy-image/Maize.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+     .others-banner{
+    background-image: url(../S-B-J/sbj.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.vegetables-banner{
+     background-image: url(../Vegetables-image/other-vr-sj.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+    
     .breadcrumb {
         position: relative;
         left: 0;
