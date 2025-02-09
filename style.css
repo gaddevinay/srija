@@ -452,7 +452,7 @@ height: 300px;
 }
 
 .text {
-  font-size: 28px;
+  font-size: 27px;
   font-family: math;
   text-align: center;
 }
@@ -571,7 +571,7 @@ p {
 
   .education p {
     text-align: center;
-    font-size: 21px;
+    font-size: 16px;
     font-family: math;
   }
 
@@ -616,7 +616,10 @@ p {
   }
 
   .text-overlay-1 h2 {
-    font-size: 15px;
+    font-size: 21px;
+  }
+   .text-overlay-1 p{
+    font-size: 17px;
   }
 
   .text-overlay-1 {
@@ -696,10 +699,14 @@ p {
   font-family: monospace;
   font-weight: bold;
 }
-.farmer-success-section h2{
-  text-align: center;
-  padding-top: 20px;
+.farmer-success-section h2 {
+    text-align: center;
+    padding-top: 20px;
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b); /* Replace with your desired gradient colors */
+    -webkit-background-clip: text;
+    color: transparent; /* Ensures the text uses the gradient */
 }
+
 .story-container {
   width: 65%;
   margin: auto;
