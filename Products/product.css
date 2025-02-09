@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     font-family: math;
 }
@@ -7,7 +7,7 @@
 
 /*new section*/
 .container-Product {
-   margin: 0 auto;
+    margin: 0 auto;
     display: flex;
     padding: 15px;
     flex-wrap: wrap;
@@ -16,7 +16,8 @@
     align-items: center;
     flex-direction: column;
 }
-.product{
+
+.product {
     background: #fff;
     margin-bottom: 20px;
     border: 1px solid #ddd;
@@ -26,6 +27,7 @@
     display: flex;
     padding: 15px;
 }
+
 .product img {
     max-width: 130px;
     margin-right: 20px;
@@ -33,108 +35,98 @@
     border-radius: 4px;
     padding: 15px;
 }
-.product-info{
+
+.product-info {
     display: flex;
     flex-direction: column;
 }
-.product-info h2{
+
+.product-info h2 {
     font-size: 20px;
     color: #333;
     margin: 0 0 10px;
 }
-.product-info p{
+
+.product-info p {
     margin: 5px 0;
     color: #555;
     font-size: 14px;
 
 }
-.product-info p span{
+
+.product-info p span {
     font-weight: bold;
     color: #000;
 }
-.paddy-banner{
+
+
+.paddy-banner h1,
+.others-banner h1,
+.vegetables-banner h1,
+.banner h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.banner,
+.paddy-banner,
+.vegetables-banner,
+.others-banner {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.vegetables-banner {
+    background-image: url(Vegetables-image/other-vr-sj.jpg);
+
+}
+
+.paddy-banner {
     background-image: url(paddy-image/paddy-vr-sj.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin: 0;
-    text-align: center;
 }
-.paddy-banner h1{
-    font-size: 2em;
-    margin: 0;
-}
-.others-banner h1{
-    font-size:2em;
-    margin:0;
-}
-.vegetables-banner{
-     background-image: url(Vegetables-image/other-vr-sj.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin: 0;
-    text-align: center;
-}
-.vegetables-banner{
-    font-size:2em;
-    margin:0;
-}
- .others-banner{
+
+.others-banner {
     background-image: url(S-B-J/sbj.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin: 0;
-    text-align: center;
+
 }
-.banner{
+
+.banner {
     background-image: url(Maize-image/Maize.png);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin: 0;
-    text-align: center;
 }
-.banner h1{
-    font-size: 2em;
-    margin: 0;
+
+.breadcrumb {
+    font-size: 1.8em;
 }
-.breadcrumb{
-    font-size:1.8em;
-}
-.breadcrumb a{
+
+.breadcrumb a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-.breadcrumb a:hover{
+.vegetables-banner .breadcrumb a,.vegetables-banner h1,.vegetables-banner .breadcrumb{
+   color: #5eff5e;
+}
+.breadcrumb a:hover {
     text-decoration: underline;
     color: #E91E63;
 }
-.Power-vardhan{
+
+.Power-vardhan {
     margin-top: 20px;
 }
-.Power-vardhan h1{
+
+.Power-vardhan h1 {
     text-align: center;
 }
+
 @media (max-width: 768px) {
-    .container-Product{
+    .container-Product {
         max-width: 127rem;
         margin: 0 auto;
         display: flex;
@@ -144,6 +136,7 @@
         align-items: center;
         flex-direction: column;
     }
+
     .product {
         background: #fff;
         margin-bottom: 20px;
@@ -155,21 +148,27 @@
         flex-direction: column;
         align-items: center;
     }
+
     .product img {
         max-width: 100px;
         margin-right: 0px;
     }
+
     .product-info h2 {
         font-size: 20px;
         color: #E91E63;
         margin: 0 0 10px;
         text-align: center;
     }
-    .banner {
-        background-image: url(../images/img5.jpg);
+
+    .banner,
+    .paddy-banner,
+    .vegetables-banner,
+    .others-banner {
         background-size: cover;
         background-position: center;
         height: 173px;
+        ;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -177,43 +176,7 @@
         margin: 0;
         text-align: center;
     }
-    .paddy-banner{
-   background-image: url(../paddy-image/paddy-vr-sj.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin: 0;
-    text-align: center;
-}
-     .others-banner{
-    background-image: url(../S-B-J/sbj.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin: 0;
-    text-align: center;
-}
-.vegetables-banner{
-     background-image: url(../Vegetables-image/other-vr-sj.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin: 0;
-    text-align: center;
-}
-    
+
     .breadcrumb {
         position: relative;
         left: 0;
@@ -223,5 +186,5 @@
         text-decoration: dotted;
     }
 }
-/*end of new section*/
 
+/*end of new section*/

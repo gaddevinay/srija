@@ -33,11 +33,10 @@ backdrop-filter: blur(1px);
 
 .mesagermsg {
      width: 88%;
-    display: flex
-;
+    display: flex;
     align-items: center;
     /* background: crimson; */
-    padding: 20px;
+    padding: 20px 0;
     color: #000000;
     border-radius: 5px;
     /* box-shadow: 0px 1px 9px 4px; */
@@ -318,20 +317,10 @@ h1 {
   font-size: 24px;
 }
 
-/*
-.Company_over-view{
-  font-family: sans-serif;
-  background: url(images/premium_photo-1661962692059-55d5a4319814.jpeg) no-repeat center fixed;
-  color: #fff;
-  height: 90vh;
-  background-size: cover;
-  backdrop-filter: blur(1px);
-}
-  */
+
 /*End of the section on the company*/
 @media screen and (max-width: 768px) {
   .timeline {
-    width: 60vh;
     max-width: 19.15em;
   }
   .contentmsg h2 {
@@ -432,7 +421,7 @@ backdrop-filter: blur(1px);
     border-radius: 1em;
     border-style: double;
     padding: 1.5em;
-    width: 17em;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
   }
@@ -477,7 +466,7 @@ backdrop-filter: blur(1px);
     margin-left: auto;
     margin-right: auto;
     width: 91%;
-    padding: 15px;
+    padding: 15px 0;
     flex-direction: column;
   }
 

@@ -586,7 +586,7 @@ p {
   .text-overlay-4 {
     position: absolute;
     top: 95%;
-    left: 48%;
+    left: 50%;
     width: 90%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -605,7 +605,7 @@ p {
     position: absolute;
     top: 95%;
     width: 90%;
-    left: 47%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     background: none;
@@ -626,7 +626,7 @@ p {
     position: absolute;
     top: 95%;
     width: 90%;
-    left: 47%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     background: none;
@@ -644,7 +644,7 @@ p {
     position: absolute;
     top: 95%;
     width: 90%;
-    left: 47%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     background: none;

@@ -376,6 +376,9 @@ ul {
     padding: 0 15px;
     box-sizing: border-box;
 }
+.footer-col ul span{
+    color:#bbbbbb;
+}
 
 .footer-col h4 {
     font-size: 18px;
@@ -404,7 +407,6 @@ ul {
 .footer-col ul li a {
     font-size: 16px;
     text-transform: capitalize;
-    color: #ffffff;
     text-decoration: none;
     font-weight: 300;
     color: #bbbbbb;
