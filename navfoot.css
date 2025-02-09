@@ -31,6 +31,12 @@
     font-size: 24px;
 }
 
+@media (max-width: 310px) {
+    .srija span {
+        display: none;
+    }
+}
+
 .navbar,
 .navbar>.container {
     width: 100%;
@@ -222,6 +228,7 @@ header section span:not(:last-child) {
     z-index: 99999;
     display: none;
 }
+
 
 @media (max-width: 768px) {
     .navbar .navbar-menu .navbar-nav .navbar-dropdown .dropdown {

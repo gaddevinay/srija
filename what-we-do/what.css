@@ -40,7 +40,7 @@ body {
   text-align: right;
   margin-bottom: 5px;
   width: 80%;
-  
+
 }
 
 .Field-Srija p {
@@ -50,13 +50,15 @@ body {
   margin: 0;
   padding-bottom: 0;
 }
-.Field-Srija ul{
+
+.Field-Srija ul {
   margin: 5px 0;
   list-style: disc;
 }
-.Field-Srija ol{
+
+.Field-Srija ol {
   margin: 5px 0;
-  
+
 }
 
 .Sriga-Agro {
@@ -237,13 +239,13 @@ p {
   }
 
   .information {
-   background: crimson;
-        color: #fff;
-        max-width: 100%;
-        height: auto;
-        padding-bottom: 1px;
-        
-    }
+    background: crimson;
+    color: #fff;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1px;
+
+  }
 
   .organic img {
     width: 90%;
