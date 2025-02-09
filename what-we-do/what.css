@@ -75,14 +75,19 @@ body {
 
 .Agriculture-work {
   display: flex;
+  align-items: center;
+}
+.h-w-d-aw{
   max-width: 95%;
   margin-left: auto;
   margin-right: auto;
   background: #ecd7ee;
-  align-items: center;
   padding: 30px 5px;
 }
-
+.h-w-d-aw h1{
+  margin: 0;
+  text-align: center;
+}
 .information {
   max-width: 85%;
   width: 100%;
@@ -161,13 +166,12 @@ summary {
 .farmer-Srija img {
   width: 95%;
   border-radius: 15px;
-  /* padding-left: 144px; */
   margin-left: 15px;
 }
 
 .our-working-step {
   width: 70%;
-  padding: 20px;
+  padding:0 20px 20px 20px;
 }
 
 .working-step-1 h1 {
@@ -338,7 +342,7 @@ p {
     padding: 0;
   }
 
-  .farmer-Srija h1 {
+  .h-w-d-aw h1 {
     text-align: center;
     font-size: 22px;
     color: green;

@@ -26,6 +26,8 @@
     width: 73%;
     display: flex;
     padding: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
 .product img {

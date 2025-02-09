@@ -16,7 +16,7 @@ body {
 
 .About-Drying img {
   width: 30%;
-  
+
   box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
   border-radius: 10px;
 
@@ -27,12 +27,15 @@ body {
   background-image: url(Drying-Image/banner-production.jpg);
   background-size: cover;
   height: 300px;
- 
+
 }
-.Drying-Unit-1 img,.Drying-Unit-2 img{
+
+.Drying-Unit-1 img,
+.Drying-Unit-2 img {
   width: 100%;
 }
-.Drying-Unit-1{
+
+.Drying-Unit-1 {
   box-shadow: 0 4px 8px 0;
   width: 245px;
   height: 15rem;
@@ -45,7 +48,8 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.Drying-Unit-12{
+
+.Drying-Unit-12 {
   box-shadow: 0 4px 8px 0;
   width: 245px;
   height: 15rem;
@@ -58,7 +62,8 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.Drying-Unit-13{
+
+.Drying-Unit-13 {
   box-shadow: 0 4px 8px 0;
   width: 245px;
   height: 15rem;
@@ -71,7 +76,8 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.Drying-Unit-14{
+
+.Drying-Unit-14 {
   box-shadow: 0 4px 8px 0;
   width: 245px;
   height: 15rem;
@@ -84,11 +90,13 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.LYD h3{
-text-align: center;
-padding: 20px 0px;
+
+.LYD h3 {
+  text-align: center;
+  padding: 20px 0px;
 }
-.main-unit{
+
+.main-unit {
   display: flex;
   gap: 60px;
   margin-left: auto;
@@ -96,6 +104,7 @@ padding: 20px 0px;
   width: 100%;
   height: auto;
 }
+
 .About-Drying p {
   line-height: 2;
   width: 60%;
@@ -112,85 +121,101 @@ padding: 20px 0px;
 }
 
 .Sriga-Agro-Unit {
-    width: 100%;
-    height: -webkit-fill-available;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 30px;
-    text-align: center;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: -webkit-fill-available;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  text-align: center;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
-.Sriga-Agro-Unit p,.Sriga-Agro-Unit h1{
+
+.Sriga-Agro-Unit p,
+.Sriga-Agro-Unit h1 {
   margin: 5px 0;
 }
 
 .Srija-DY-Tech {
   color: purple;
 }
-.look-ds{
+
+.look-ds {
   padding-bottom: 25px;
   background: #eeffef;
 }
 
 @media screen and (max-width: 767px) {
   .About-Drying {
-      width: 98%;
-      display: flex;
-      margin-right: auto;
-      margin-left: auto;
-      gap: 0px;
-      padding: 3px;
-      text-align: justify;
-      flex-direction: column-reverse;
-      flex-wrap: wrap;
+    width: 98%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 0px;
+    padding: 3px;
+    text-align: justify;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
   }
+
   .main-unit {
-      display: flex;
-      gap: 60px;
-      margin-left: auto;
-      margin-right: auto;
-      width: 90%;
-      flex-direction: column;
+    display: flex;
+    gap: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    flex-direction: column;
   }
-  .LYD{
-      text-align: center;
+
+  .LYD {
+    text-align: center;
   }
-  
+
 
   .Sriga-Agro-Unit h1 {
-      text-align: center;
-      font-size: 26px;
+    text-align: center;
+    font-size: 26px;
   }
 
   .Sriga-Agro-Unit p {
-      text-align: center;
-      font-size: 20px;
+    text-align: center;
+    font-size: 20px;
   }
 
   .Srija-DY {
-      width: 100%;
-      background-size: auto;
-      height: 25vh;
+    width: 100%;
+    background-size: auto;
+    height: 25vh;
   }
-  
+
 
   .About-Drying p {
-      line-height: 2;
-      width: 97%;
-      margin: 0;
-      font-size: 15px;
+    line-height: 2;
+    width: 97%;
+    margin: 0;
+    font-size: 15px;
   }
 
   .About-Drying img {
-      width: 75%;
-      margin: auto auto 25px auto;
-      box-shadow: none;
-      border-radius: 5px;
+    width: 75%;
+    margin: auto auto 25px auto;
+    box-shadow: none;
+    border-radius: 5px;
+  }
+}
+
+@media(max-width:310px) {
+
+  .Drying-Unit-1,
+  .Drying-Unit-12,
+  .Drying-Unit-13,
+  .Drying-Unit-14 {
+    width: 149px;
+        height: 6rem;
   }
 }
 

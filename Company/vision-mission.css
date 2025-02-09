@@ -92,7 +92,9 @@ body {
   flex: 1;
   max-width: 600px;
 }
-
+.content p{
+  font-size: 20px;
+}
 .image {
   flex: 1;
   max-width: 500px;
