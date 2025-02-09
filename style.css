@@ -344,7 +344,7 @@ filter: invert();
   width: 1499px;
   max-width: 100%;
   height: 378px;
-  /* margin: auto; */
+  margin: auto;
   position: relative;
   overflow: hidden;
 }
@@ -353,7 +353,6 @@ filter: invert();
   position: absolute;
   width: max-content;
   height: 50%;
-
   top: 0;
   display: flex;
   transition: 1s;
@@ -363,7 +362,6 @@ filter: invert();
   width: 1500px;
   max-width: 100vw;
   height: 200%;
-
   object-fit: cover;
 }
 
@@ -412,6 +410,14 @@ filter: invert();
 .slider .dots li.active {
   width: 30px;
   background: gold;
+}
+@media (min-width: 1501px) {
+  .slider .list img {
+    width: 1800px;
+  }
+  .slider {
+    width: 1799px;
+  }
 }
 
 @media screen and (max-width: 768px) {
