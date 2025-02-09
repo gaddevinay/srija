@@ -39,7 +39,7 @@ body {
 .field-i-f h2 {
   text-align: right;
   margin-bottom: 5px;
-  width: 85%;
+  width: 80%;
   
 }
 
@@ -47,8 +47,17 @@ body {
   line-height: 26px;
   top: 5rem;
   text-align: justify;
+  margin: 0;
+  padding-bottom: 0;
 }
-
+.Field-Srija ul{
+  margin: 5px 0;
+  list-style: disc;
+}
+.Field-Srija ol{
+  margin: 5px 0;
+  
+}
 
 .Sriga-Agro {
   width: 25%;
