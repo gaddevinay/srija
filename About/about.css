@@ -23,34 +23,34 @@ body {
 
 .history_achive {
   font-family: sans-serif;
-background: #09ff00;
-color: #fff;
-padding-top: 50px;
-background-size: cover;
-backdrop-filter: blur(1px);
+  background: #09ff00;
+  color: #fff;
+  padding-top: 50px;
+  background-size: cover;
+  backdrop-filter: blur(1px);
 
 }
 
 .mesagermsg {
-     width: 88%;
-    display: flex;
-    align-items: center;
-    /* background: crimson; */
-    padding: 20px 0;
-    color: #000000;
-    border-radius: 5px;
-    /* box-shadow: 0px 1px 9px 4px; */
-    flex-direction: row;
-    margin: 20px auto;
+  width: 88%;
+  display: flex;
+  align-items: center;
+  /* background: crimson; */
+  padding: 20px 0;
+  color: #000000;
+  border-radius: 5px;
+  /* box-shadow: 0px 1px 9px 4px; */
+  flex-direction: row;
+  margin: 20px auto;
 }
 
 /*.contentmsg span { content: "\201C"; }
 .contentmsg span { content: "\201D"; }*/
 .contentmsg i {
   font-size: 31px;
-    position: relative;
-    color: #78b343;
-    bottom: 6px;
+  position: relative;
+  color: #78b343;
+  bottom: 6px;
 }
 
 .contentmsg h2 {
@@ -59,9 +59,10 @@ backdrop-filter: blur(1px);
   margin-top: 5px;
   font-size: 24px;
 }
-.contentmsg h2 span{
+
+.contentmsg h2 span {
   font-weight: 100;
-    font-size: 20px;
+  font-size: 20px;
 }
 
 
@@ -72,12 +73,13 @@ backdrop-filter: blur(1px);
 
 .contentmsg {
   width: 90%;
-  padding:11px;
-  text-align:justify;
-  
+  padding: 11px;
+  text-align: justify;
+
 }
-.meassage-vr-sj{
-  font-size:25px;
+
+.meassage-vr-sj {
+  font-size: 25px;
 }
 
 .heromsg {
@@ -323,6 +325,7 @@ h1 {
   .timeline {
     max-width: 19.15em;
   }
+
   .contentmsg h2 {
     text-align: right;
     margin-bottom: 0;
@@ -330,7 +333,7 @@ h1 {
     font-size: 16px;
     color: crimson;
     text-decoration: underline;
-}
+  }
 
   .About-Company_Vr {
     width: 90%;
@@ -366,12 +369,12 @@ h1 {
   }
 
   .history_achive {
-font-family: sans-serif;
-background: #00ff0d;
-padding: 20px 0px;
-background-size: cover;
-backdrop-filter: blur(1px);
-   
+    font-family: sans-serif;
+    background: #00ff0d;
+    padding: 20px 0px;
+    background-size: cover;
+    backdrop-filter: blur(1px);
+
   }
 
   .timeline .checkpoint div::before {
@@ -496,6 +499,12 @@ backdrop-filter: blur(1px);
   }
 }
 
+@media (max-width: 630px) {
+  .title {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 
 .containersr {
   max-width: 1170px;
