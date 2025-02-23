@@ -156,4 +156,14 @@ function showTestimonials() {
 
 // Auto-slide every 3 seconds
 setInterval(showTestimonials, 3000);
+// Check if counter exists in local storage
+if (localStorage.getItem("visitCount")) {
+    let count = parseInt(localStorage.getItem("visitCount"));
+    count++;
+    localStorage.setItem("visitCount", count);
+    document.getElementById("visitorCount").innerText = `Your Visits: ${count}`;
+} else {
+    localStorage.setItem("visitCount", 1);
+    document.getElementById("visitorCount").innerText = "Your Visits: 1";
+}
 
