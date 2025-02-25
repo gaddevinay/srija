@@ -4,18 +4,14 @@ import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/fi
 
 // Firebase Configuration
 const firebaseConfig = {
-    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-    appId: import.meta.env.VITE_FIREBASE_APP_ID,
-    measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
+    apiKey: "AIzaSyAWxeXSKnKZMFvIN57qO7AyF-TITa1JwD4",
+    authDomain: "signin-signup-c6005.firebaseapp.com",
+    projectId: "signin-signup-c6005",
+    storageBucket: "signin-signup-c6005.appspot.com",
+    messagingSenderId: "928748970724",
+    appId: "1:928748970724:web:a535b75bef0a9edfa742f1",
+    measurementId: "G-NNWF8P6D6J"
 };
-
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
